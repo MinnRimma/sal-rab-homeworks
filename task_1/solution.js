@@ -19,7 +19,7 @@ function addInCartMessage(title, price) {
     // добавьте в конец переменной message пробел
     message = message + " ";
     // добавьте в конец переменной message текст 'теперь в корзине!'
-    message = message + "теперь в корзине";
+    message = message + "теперь в корзине!";
     // выведите переменную message в консоль
 console.log(message);
     // Конец решения задания №1.1.
@@ -57,7 +57,7 @@ function addInCartSumChange(sum, delta) {
     let newSumText;
     //newSumText = newSum + "₽";
     // замените склеивание, используемое в newSum Text на шаблонную строку
-   newSumText = `${newSum}₽ `; 
+   newSumText = `${newSum} ₽`; 
 
     // Конец решения задания №1.3.
 
